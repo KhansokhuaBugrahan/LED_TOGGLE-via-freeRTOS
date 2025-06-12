@@ -1,9 +1,12 @@
 # LED_TOGGLE-via-freeRTOS
 A beginner-level project using FreeRTOS to toggle  LEDs with a single task.
 
-Board: STM32F407G-DISC1                                    
-   IDE: STMCubdeIDE
-                    
+Board: STM32F407G-DISC1                                                   
+   IDE: STMCubdeIDE                              
+                                  
+Inc -> Header files                                   
+Src -> Source files (main.c as well)                                       
+                                
 Since we only want to toggle leds each 500ms, we haven't created three more task.                                                     
 Instead, we use a single task to keep the program simple and clean.                  
 freeRTOS allows tasks to have the same priority level.                        
