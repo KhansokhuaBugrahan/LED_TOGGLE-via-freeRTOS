@@ -41,11 +41,9 @@
  *----------------------------------------------------------*/
 
 /* Ensure stdint is only used by the compiler, and not the assembler. */
-#if defined(__ICCARM__) || defined(__CC_ARM) || defined(__GNUC__)
-     #include <stdint.h>
-     extern uint32_t SystemCoreClock;
-#endif
 
+
+extern uint32_t SystemCoreClock;
 
 
 #define configUSE_PREEMPTION			1
@@ -68,7 +66,6 @@
 #define configUSE_APPLICATION_TASK_TAG	0
 #define configUSE_COUNTING_SEMAPHORES	1
 #define configGENERATE_RUN_TIME_STATS	0
-
 
 /* Co-routine definitions. */
 #define configUSE_CO_ROUTINES 		0
