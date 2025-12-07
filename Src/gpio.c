@@ -5,7 +5,7 @@
  *      Author: khans
  */
 #include "gpio.h"
-#include "stm32f4xx.h"
+#include "stm32f4xxx.h"
 /*
  * 	mode ayarı output için push pull, open-drain, speed ne olsun?
  * 	input için, pull-up, pull-down mu?, input mu alternate function mı?

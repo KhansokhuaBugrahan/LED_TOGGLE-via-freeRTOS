@@ -8,7 +8,7 @@
 #ifndef GPIO_H_
 #define GPIO_H_
 
-#include "stm32f4xx.h"
+#include "stm32f4xxx.h"
 
 #define		BUILTin_LED_COUNT			4
 #define		PORT_PIN_COUNT				16
