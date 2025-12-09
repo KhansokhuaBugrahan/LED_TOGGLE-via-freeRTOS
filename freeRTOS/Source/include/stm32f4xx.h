@@ -123,6 +123,7 @@ extern "C" {
 /** @addtogroup Device_Included
   * @{
   */
+#define STM32F407xx // define your own board
 
 #if defined(STM32F405xx)
 #include "stm32f405xx.h"
@@ -299,3 +300,4 @@ typedef enum
 /**
   * @}
   */
+
